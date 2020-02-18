@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="TheGymWebsite20191227011619" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Anonymous\\source\\repos\\TheGymWebsite\\TheGymWebsite\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="TheGymWebsite.Models.GymDbContext" description="" value="Server=tcp:gym-server-123.database.windows.net,1433;Database=gymDB;User ID=hussainnsaleh;Password=facebook.com007;Encrypt=true;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Anonymous\\source\\repos\\TheGymWebsite\\TheGymWebsite\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\TheGymWebsite\.Models\.GymDbContext\.sql$" />
+  </parameter>
+</parameters>

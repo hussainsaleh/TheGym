@@ -1,0 +1,324 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 50px;
+    /*background-image: url("/images/Grey-background.jpg");*/
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 50px; /* Vertically center the text there */
+}
+
+/*Main div container*/
+.main-container {
+    position: relative;
+    top: 100px; /*main container begins after the navbar.*/
+    height: auto;
+    padding: 0;
+    margin: 0 0 130px 0;
+    /*background-image: url("/images/Grey-background.jpg");*/
+}
+
+/*.user-view {
+    color:white;
+    font-size:large;
+}*/
+
+.home-page-img {
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
+}
+
+.gym-slides {
+    width:100%;
+    height:auto;
+}
+
+
+/*Stules for the navbar.
+-------------------------------------------------- */
+.my-navbar {
+    height: 100px;
+    background-color: black;
+    padding: 0px 10px 0px 20px;
+}
+
+    .my-navbar .my-navbar-text {
+        font-size: larger;
+        font-variant-caps: all-small-caps;
+        color: white;
+    }
+
+.my-navbar-logo {
+    max-height: 80px;
+}
+
+.password {
+    color:blue;
+    font-size:large;
+    font-weight:bold;
+    text-decoration:none;
+}
+    .password:hover {
+        color: lightblue;
+        text-decoration: none;
+    }
+
+.btn-join {
+    padding: 10px 40px 10px 40px;
+    font-weight: bold;
+    font-size: 100%;
+    font-variant-caps: all-small-caps;
+    /*box-shadow: inset 0px 1px 0px 0px #cf866c;*/
+    /*background: linear-gradient(to bottom, crimson 5%, #960000 100%);*/
+    background-color: #ed1c24;
+    color: white;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+    .btn-join:hover {
+        color:white;
+        text-decoration:none;
+    }
+
+button.btn-theme, a.btn-theme {
+    box-shadow: inset 0px 1px 0px 0px #cf866c;
+    background: linear-gradient(to bottom, crimson 5%, #960000 100%);
+    background-color: crimson;
+    border-radius: 3px;
+    border: 1px solid #942911;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: Arial;
+    font-size: large;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #854629;
+}
+
+.btn-theme:hover {
+    background: linear-gradient(to bottom, #960000 5%, #d0451b 100%);
+    background-color: #960000;
+}
+
+.btn-theme:active {
+    position: relative;
+    top: 1px;
+}
+
+button.btn-edit, a.btn-edit {
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background: linear-gradient(to bottom, gold 5%, #ffab23 100%);
+    background-color: gold;
+    border-radius: 6px;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    color: #333333;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffee66;
+}
+
+.btn-edit:hover {
+    background: linear-gradient(to bottom, #ffab23 5%, gold 100%);
+    background-color: black;
+}
+
+.btn-edit:active {
+    position: relative;
+    top: 1px;
+}
+
+button.btn-admin, a.btn-admin {
+    padding: 10px 30px 10px 30px;
+    min-width: 200px;
+    color: black;
+}
+
+button.btn-delete, a.btn-delete {
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background: linear-gradient(to bottom, gold 5%, #ffab23 100%);
+    background-color: gold;
+    border-radius: 6px;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    color: #d0451b;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffee66;
+}
+
+.btn-delete:hover {
+    background: linear-gradient(to bottom, #ffab23 5%, gold 100%);
+    background-color: black;
+}
+
+.btn-delete:active {
+    position: relative;
+    top: 1px;
+}
+
+
+/* Styles for home page.
+-------------------------------------------------- */
+
+.gym-background {
+    background-image: url("/images/Grey-background.jpg");
+    height: 100%;
+    width: 100%;
+    min-width:100%;
+    min-height:100%;
+    color: white;
+    font-size: large;
+    overflow:auto;
+}
+
+.gym-background-text {
+    color: white;
+    font-size: large;
+}
+
+.top-home-page {
+    background-image: url("/images/EquipmentTop.jpg");
+    /*min-height: 400px;*/
+    height: 400px;
+    width: 100%;
+    background-position: top;
+    background-repeat: round;
+    position: relative;
+}
+
+.main-text {
+    font-family: Helvetica, sans-serif;
+    margin: 20px 0 10px 0;
+    letter-spacing: -2px;
+    font-size: 150%;
+    font-family: sans-serif;
+    color: black;
+}
+
+.required:after {
+    content: " *";
+    font-weight: bold;
+    color: red;
+}
+
+.price-box {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 250px;
+    min-width: 200px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: lightgrey;
+    /*background-color:gold;*/
+}
+
+    .price-box .membership-period {
+        margin: 0;
+        padding: 20px 0 20px 0;
+        color: white;
+        background-color: black;
+        border-radius: 3px;
+        font-size: 1.5em;
+        font-family: "din-alternate",sans-serif;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    .price-box .membership-price {
+        margin: 0;
+        padding: 0;
+        font-size: 4em;
+        font-weight: bolder;
+        color: black;
+        font-family: "din-alternate",sans-serif;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    .price-box .price-posttext {
+        margin: 0;
+        padding: 0;
+        color: crimson;
+        font-family: "din-alternate",sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+    }
+
+.element-inline {
+    display:inline;
+}
+
+.note-field {
+    min-width:200px;
+}
+
+/*small {
+    color: white;
+}*/
+
+/*Filter...*/
+.active-red-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid crimson;
+    box-shadow: 0 1px 0 0 crimson;
+}
+
+.active-red input[type=text] {
+    border-bottom: 1px solid crimson;
+    box-shadow: 0 1px 0 0 crimson;
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+
+@media (max-width: 750px) {
+
+    .top-home-page {
+        height: 300px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 400px) {
+    .top-home-page {
+        height: 200px;
+        background-repeat: no-repeat;
+    }
+
+    .btn-join {
+        padding: 10px 20px 10px 20px;
+    }
+}

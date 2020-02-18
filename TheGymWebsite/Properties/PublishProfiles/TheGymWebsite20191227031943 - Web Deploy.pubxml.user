@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8EqlUSh6A0CdxQdN5ZEZxQAAAAACAAAAAAAQZgAAAAEAACAAAAAheQA71zJbomgBzCaka2G7oZq6Ycaceut3k99aiIZIlQAAAAAOgAAAAAIAACAAAAA5kMpWBdLh1HahaWHdFoN8PbM9dqhdSjV3Xe94SVQbfIAAAAB2q65mOgwzDSd+bnH8xhkW+Z+5rZ1NymaT9u0ZIN/t6p9X+Q6py7p2QtFwwnPWvqzo+sm2n/wfwUfTAG2ycqvQ9Gp3mY9QooI9J6rf04jOovvM7JOtGX4DfZae++NNDnNayD6Kld9LwQiCmpHgKrD1Nmi7Krwle8Vdde7uCWVIL0AAAAAtQdBeiA+xzCDBzvbl1jSpefwg6EOe8odZ1a7xS9rB7JeqskfnQsaVl2EmNNib8aXW7I0ZSLCVPR8Oe2+1ghBU</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MyDbConnection">
+      <Value>Server=tcp:gym-server-123.database.windows.net,1433%3bDatabase=gymDB%3bUser ID=hussainnsaleh%3bPassword=facebook.com007%3bEncrypt=true%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="TheGymWebsite.Models.GymDbContext">
+      <Value>Server=tcp:gym-server-123.database.windows.net,1433%3bDatabase=gymDB%3bUser ID=hussainnsaleh%3bPassword=facebook.com007%3bEncrypt=true%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
